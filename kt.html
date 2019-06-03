@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let tk = prompt("nhập vào tài khoản")
+
+        if(tk=="admin"){
+            let mk = prompt("Nhập vào mk")
+            if (mk == "master"){
+                alert("welcome");
+            }
+            else if(mk == ""){
+                alert("canceled")
+            }
+            else alert("wrong passwork")
+        }
+        else if(tk == ""){
+            alert("canceld")
+        }
+        else alert("t don't know")
+    </script>
+</body>
+</html>
